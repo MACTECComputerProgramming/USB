@@ -524,6 +524,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1502644577}
+  - component: {fileID: 1502644578}
   - component: {fileID: 1502644576}
   m_Layer: 0
   m_Name: SpawnManger
@@ -549,8 +550,9 @@ MonoBehaviour:
   - {fileID: 100000, guid: ee6a0f4f3c9c1e245ba88d5f363c7424, type: 3}
   - {fileID: 100000, guid: 7654cc9cfdc93c94597684897a8cc77b, type: 3}
   - {fileID: 100000, guid: 16ec6efed8df064478f604f26c5c0142, type: 3}
-  - {fileID: 0}
-  thrust: 4
+  - {fileID: 100004, guid: a72885e93c1e4c5449d8f2a4888f2ed7, type: 3}
+  - {fileID: 1141620501440248, guid: 595f07ceb372f6843847d984ba9aaf8b, type: 3}
+  thrust: 9
 --- !u!4 &1502644577
 Transform:
   m_ObjectHideFlags: 0
@@ -565,3 +567,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1502644578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502644575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da350234dcbf7746abce3f8bc822bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
