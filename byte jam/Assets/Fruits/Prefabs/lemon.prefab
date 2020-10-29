@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 836166011673855380}
   - component: {fileID: 8930054939900138462}
   - component: {fileID: 2190023358432347407}
+  - component: {fileID: 2074962904637884872}
   m_Layer: 10
   m_Name: lemon
   m_TagString: Untagged
@@ -125,3 +126,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61731d6f9ee80e04db332f1cb75c288c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2074962904637884872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc15907bc323f4744a5236a91c4f8369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSlicedPrefab: {fileID: 0}
+  startForce: 15
