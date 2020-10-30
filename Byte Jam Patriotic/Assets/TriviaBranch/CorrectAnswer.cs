@@ -8,6 +8,7 @@ public class CorrectAnswer : MonoBehaviour {
     public void button() {
         if (correct == true) {
             SceneManager.UnloadSceneAsync("Trivia");
+            Time.timeScale = 1f;
         } else { SceneManager.LoadScene("GameOver"); }
     }
 }

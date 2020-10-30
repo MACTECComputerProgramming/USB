@@ -7,11 +7,13 @@ public class SceneManage : MonoBehaviour
 {
     public void Restart()
     {
-        SceneManager.LoadScene("fruits_scene");
+        SceneManager.LoadScene("Game");
+        Time.timeScale = 1f;
     }
     public void Menu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MenuScene");
+        Time.timeScale = 1f;
     }
-  
+
 }
