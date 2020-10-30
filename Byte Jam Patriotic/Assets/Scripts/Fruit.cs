@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Fruit : MonoBehaviour
 {
 	public GameObject fruitSlicedPrefab;
+	public static int score;
 
 	Rigidbody rb;
 
@@ -30,6 +31,7 @@ public class Fruit : MonoBehaviour
 			*/
 			if(gameObject.tag == "Bomb") { SceneManager.LoadScene("Trivia", LoadSceneMode.Additive); Time.timeScale = 0f;	}
 			Destroy(gameObject);
+			score++;
 		}
 	}
 
