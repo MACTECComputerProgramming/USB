@@ -125,3 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61731d6f9ee80e04db332f1cb75c288c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:byte jam/Assets/Fruits/Prefabs/orange.prefab
+=======
+  fruitSlicedPrefab: {fileID: 100000, guid: ef43c661d6c71a94eaab26c1a922a248, type: 3}
+>>>>>>> Stashed changes:Byte Jam Patriotic/Assets/Fruits/Prefabs/orange.prefab

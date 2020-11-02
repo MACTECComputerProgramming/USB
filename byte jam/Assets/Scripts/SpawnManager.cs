@@ -29,7 +29,7 @@ public class SpawnManager : MonoBehaviour
 
         // instantiate ball at random spawn location
         Instantiate(fruitPrefabs[num], spawnPos, fruitPrefabs[num].transform.rotation);
-        float time = Random.Range(.5f,3f);
+        float time = Random.Range(.5f,2f);
         yield return new WaitForSeconds(time);
         StartCoroutine("SpawnRandomFruit");
     }

@@ -122,7 +122,16 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+<<<<<<< Updated upstream:byte jam/Assets/Fruits/Prefabs/Watermelon.prefab
   m_Radius: 1.5
   m_Height: 1.9999999
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc15907bc323f4744a5236a91c4f8369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSlicedPrefab: {fileID: 100000, guid: dd87ad3d37415184cb5daaeffc7f221e, type: 3}
+  fruitSlicedPrefab2: {fileID: 0}
+>>>>>>> Stashed changes:Byte Jam Patriotic/Assets/Fruits/Prefabs/Watermelon.prefab

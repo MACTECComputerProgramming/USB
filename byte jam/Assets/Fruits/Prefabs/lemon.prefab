@@ -111,9 +111,15 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< Updated upstream:byte jam/Assets/Fruits/Prefabs/lemon.prefab
   m_Size: {x: 77.18031, y: 57.328182, z: 81.65883}
   m_Center: {x: 9.926065, y: -4.8094666e-15, z: -1.5129417}
 --- !u!114 &2190023358432347407
+=======
+  m_Size: {x: 77.18031, y: 57.328182, z: 65.995926}
+  m_Center: {x: 9.926065, y: -0, z: -2.9770045}
+--- !u!114 &2074962904637884872
+>>>>>>> Stashed changes:Byte Jam Patriotic/Assets/Fruits/Prefabs/lemon.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,3 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61731d6f9ee80e04db332f1cb75c288c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:byte jam/Assets/Fruits/Prefabs/lemon.prefab
+=======
+  fruitSlicedPrefab: {fileID: 100000, guid: dd87ad3d37415184cb5daaeffc7f221e, type: 3}
+>>>>>>> Stashed changes:Byte Jam Patriotic/Assets/Fruits/Prefabs/lemon.prefab
