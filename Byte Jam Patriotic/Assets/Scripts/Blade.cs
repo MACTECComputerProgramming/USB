@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 public class Blade : MonoBehaviour
 {
-
+	public Text x;
 	public GameObject bladeTrailPrefab;
 	public float minCuttingVelocity = .001f;
 
@@ -41,7 +43,7 @@ public class Blade : MonoBehaviour
 		{
 			UpdateCut();
 		}
-
+		x.text = Fruit.score.ToString();
 	}
 
 	void UpdateCut()
