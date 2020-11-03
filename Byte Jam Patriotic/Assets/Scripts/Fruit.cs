@@ -7,9 +7,12 @@ using UnityEngine.UI;
 public class Fruit : MonoBehaviour
 {
 	public GameObject fruitSlicedPrefab;
+	public GameObject bananaSlice;
 	public static int score;
+	public static int scoreTotal;
 
 	Rigidbody rb;
+	public Text x;
 
 	void Start()
 	{
@@ -42,6 +45,10 @@ public class Fruit : MonoBehaviour
 				GameObject slicedFruit = Instantiate(fruitSlicedPrefab, transform.position, rotation);
 					slicedFruit.GetComponent<Rigidbody>().AddTorque(Random.Range(-10, 10), Random.Range(-10, 10), Random.Range(-10, 10), ForceMode.Impulse);
 					Destroy(slicedFruit, 3f);
+				GameObject banana = Instantiate(bananaSlice, transform.position, rotation);
+					banana.GetComponent<Rigidbody>().AddTorque(Random.Range(-10, 10), Random.Range(-10, 10), Random.Range(-10, 10), ForceMode.Impulse);
+					banana.GetComponent<Rigidbody>().AddForce(Vector3.up * 2, ForceMode.Impulse);
+					Destroy(banana, 3f);
 				}
 			}
 			if (gameObject.tag == "Bomb") { SceneManager.LoadScene("Trivia", LoadSceneMode.Additive); Time.timeScale = 0f;	}
