@@ -132,6 +132,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream:byte jam/Assets/Fruits/Prefabs/banana.prefab
+<<<<<<< Updated upstream:byte jam/Assets/Fruits/Prefabs/banana.prefab
 =======
   fruitSlicedPrefab: {fileID: 100004, guid: a63d127c971dc88408765bf2fe436ddc, type: 3}
 >>>>>>> Stashed changes:Byte Jam Patriotic/Assets/Fruits/Prefabs/banana.prefab
+=======
+  fruitSlicedPrefab: {fileID: 3009559030451529419, guid: a7aea8132f3dbd5468738e69c3133d5e, type: 3}
+  bananaSlice: {fileID: 2741973868354174790, guid: 775200f0064745c43acf9f242b748ef2, type: 3}
+  x: {fileID: 0}
+>>>>>>> Stashed changes:Byte Jam Patriotic/Assets/Prefabs/banana.prefab
