@@ -11,6 +11,7 @@ public class Fruit : MonoBehaviour
 	public static int scoreTotal;
 
 	Rigidbody rb;
+	public Text x;
 
 	void Start()
 	{
@@ -37,7 +38,6 @@ public class Fruit : MonoBehaviour
 				GameObject slicedFruit2 = Instantiate(fruitSlicedPrefab, transform.position, rotation);
 					slicedFruit2.GetComponent<Rigidbody>().AddTorque(Random.Range(-10, 10), Random.Range(-10, 10), Random.Range(-10, 10), ForceMode.Impulse);
 					slicedFruit2.GetComponent<Rigidbody>().AddForce(Vector3.up * 2, ForceMode.Impulse);
-
 				Destroy(slicedFruit, 3f); Destroy(slicedFruit2, 3f);
 					 
 				} else {
