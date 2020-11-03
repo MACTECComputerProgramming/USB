@@ -8,10 +8,8 @@ public class Fruit : MonoBehaviour
 {
 	public GameObject fruitSlicedPrefab;
 	public static int score;
-	public static int scoreTotal;
 
 	Rigidbody rb;
-	public Text x;
 
 	void Start()
 	{
