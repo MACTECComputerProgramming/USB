@@ -22,7 +22,7 @@ public class SpawnManager : MonoBehaviour
     public IEnumerator SpawnRandomFruit()
     {
         // Generate random ball index and random spawn position
-        int num = Random.Range(0, 6);
+        int num = Random.Range(0, fruitPrefabs.Length);
         Vector3 spawnPos = new Vector3(Random.Range(spawnLimitXLeft, spawnLimitXRight), spawnPosY, -3);
 
         // instantiate ball at random spawn location
