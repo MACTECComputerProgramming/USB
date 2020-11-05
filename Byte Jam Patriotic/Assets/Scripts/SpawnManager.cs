@@ -11,8 +11,7 @@ public class SpawnManager : MonoBehaviour
     private float spawnPosY = -3;
 
     public float thrust = 4.0f;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         StartCoroutine("SpawnRandomFruit");
