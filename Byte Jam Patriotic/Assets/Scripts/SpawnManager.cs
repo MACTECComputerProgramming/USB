@@ -5,11 +5,11 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] fruitPrefabs;
-
     private float spawnLimitXLeft = -1.5f;
     private float spawnLimitXRight = 1.5f;
     private float spawnPosY = -3;
 
+    public float time1 = 0.75f, time2 = 2.5f;
     public float thrust = 4.0f;
     
     void Start()
@@ -26,7 +26,9 @@ public class SpawnManager : MonoBehaviour
 
         // instantiate ball at random spawn location
         Instantiate(fruitPrefabs[num], spawnPos, fruitPrefabs[num].transform.rotation);
-        float time = Random.Range(.5f,3f);
+        float time = Random.Range(time1,time2);
+        time1 *= .99f; time2 *= .99f;
+        Debug.Log(time1 + " " + time2);
         yield return new WaitForSeconds(time);
         StartCoroutine("SpawnRandomFruit");
     }

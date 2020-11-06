@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 506988335}
   - component: {fileID: 506988334}
   - component: {fileID: 506988339}
+  - component: {fileID: 506988338}
   m_Layer: 0
   m_Name: Destroy Objects
   m_TagString: Untagged
@@ -371,6 +372,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &506988338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506988333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646d81f31a079e242a582c222730e902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heart1: {fileID: 1923124729}
+  heart2: {fileID: 1095418976}
 --- !u!114 &506988339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,6 +398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d414ee4f799658244becf620a1c6abef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: {fileID: 506988338}
 --- !u!1 &806228798
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +674,7 @@ GameObject:
   - component: {fileID: 1339760525}
   - component: {fileID: 1339760528}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: MainCam
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

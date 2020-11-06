@@ -127,4 +127,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitSlicedPrefab: {fileID: 3009559030451529419, guid: a7aea8132f3dbd5468738e69c3133d5e, type: 3}
   bananaSlice: {fileID: 2741973868354174790, guid: 775200f0064745c43acf9f242b748ef2, type: 3}
-  x: {fileID: 0}
+  xx: {fileID: 8300000, guid: 0f375aca86dadf746850b140d20bb586, type: 3}
