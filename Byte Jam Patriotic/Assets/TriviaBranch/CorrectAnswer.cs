@@ -10,6 +10,6 @@ public class CorrectAnswer : MonoBehaviour {
             GameObject.Find("MainCam").GetComponent<AudioSource>().Play();
             SceneManager.UnloadSceneAsync("Trivia");
             Time.timeScale = 1f;
-        } else { SceneManager.LoadScene("GameOver"); Life.lives = 3;}
+        } else { SceneManager.LoadScene("GameOver");}
     }
 }

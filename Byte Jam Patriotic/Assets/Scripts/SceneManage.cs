@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneManage : MonoBehaviour
 {
+    private void Start()
+    {
+        Life.lives = 3;
+    }
     public void Restart()
     {
         SceneManager.LoadScene("Game");
