@@ -20,7 +20,6 @@ public class Fruit : MonoBehaviour
 		rb.AddForce(Vector3.up * Random.Range(12, 14), ForceMode.Impulse);
 		rb.AddTorque(Random.Range(-10, 10), Random.Range(-10, 10), Random.Range(-10, 10), ForceMode.Impulse);
 		scp = GameObject.Find("Destroy Objects").GetComponent<Life>();
-
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -55,8 +54,8 @@ public class Fruit : MonoBehaviour
 			}
 			if (gameObject.tag == "Bomb") {
 				SceneManager.LoadScene("Trivia", LoadSceneMode.Additive); Time.timeScale = 0f;
-				GameObject.Find("MainCam").GetComponent<AudioSource>().Stop();
 				scp.LifeLoss();
+				GameObject.Find("MainCam").GetComponent<AudioSource>().Stop();
 			}
 			if (gameObject.tag != "Bomb") { score++; }
 			Destroy(gameObject); 

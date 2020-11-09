@@ -12,13 +12,14 @@ public class Life : MonoBehaviour
 
     public void LifeLoss() {
         lives--;
-        if (heart1.activeSelf) {
+        if (lives==2) {
             heart1.SetActive(false);
-        } else if (!heart1.activeSelf) {
+        } else if (lives==1) {
             heart2.SetActive(false);
         }
         if (lives == 0) {
-            lives = 3;
+            heart1.SetActive(true);
+            heart2.SetActive(true);
             SceneManager.LoadScene("GameOver");
         }
     }
